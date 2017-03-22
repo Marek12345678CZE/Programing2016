@@ -7,7 +7,7 @@ bool je_sude(int cislo){
 }
 
 int main (void){
-	printf("Zadej číslo");
+	printf("Zadej číslo: ");
 	int i;
 	scanf("%d", &i);
         if(je_sude(i)== true){
